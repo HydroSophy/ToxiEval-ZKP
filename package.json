@@ -1,0 +1,43 @@
+{
+  "name": "toxieval-zkp",
+  "version": "1.0.0",
+  "description": "Structure-private verification framework for molecular toxicity repair tasks based on Groth16 zero-knowledge proofs.",
+  "license": "MIT",
+  "author": "HydroSophy <feilin@ieee.org>",
+  "homepage": "https://github.com/HydroSophy/ToxiEval-ZKP",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HydroSophy/ToxiEval-ZKP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HydroSophy/ToxiEval-ZKP/issues"
+  },
+  "keywords": [
+    "zero-knowledge-proof",
+    "zk-snark",
+    "groth16",
+    "circom",
+    "molecular-toxicity",
+    "ai-for-science",
+    "verifiable-evaluation",
+    "structural-privacy"
+  ],
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js",
+    "stats": "node cli.js --stats",
+    "setup": "node cli.js --setup",
+    "build:circuit": "circom circuits/molecule_verification.circom --r1cs --wasm --sym -o build -l node_modules",
+    "prepare-data": "node experiments/scripts/prepare_data.js",
+    "test:scalability": "node experiments/scripts/scalability_test.js",
+    "test:security": "node experiments/scripts/security_verification.js",
+    "test:complexity": "node experiments/scripts/circuit_complexity.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "snarkjs": "^0.7.5"
+  }
+}

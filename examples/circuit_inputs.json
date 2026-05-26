@@ -1,0 +1,202 @@
+[
+  {
+    "molecule_id": 1,
+    "task": "ames",
+    "original_data": {
+      "molecule_id": 1,
+      "task": "ames",
+      "original_smiles": "Cc1nc2cc(Cl)ccc2[nH]1",
+      "modified_smiles": "Cc1nc2cc(F)ccc2[nH]1",
+      "message": "Success: Molecule meets all repair criteria",
+      "valid_smiles": true,
+      "success": true,
+      "qed": 0.6109928948975553,
+      "sas_score": 2.0384172097463615,
+      "lipinski_violations": 0,
+      "similarity": 0.5132978723404256,
+      "toxicity_improved": true,
+      "toxicity": {
+        "AMES": {
+          "value": "A",
+          "probability": 1
+        }
+      },
+      "task_type": 0
+    },
+    "circuit_input": {
+      "valid_smiles": 1,
+      "safety_score": 1000000,
+      "qed_score": 610992,
+      "sas_score": 2038417,
+      "lipinski_violations": 0,
+      "similarity": 513297,
+      "salt": 3116963188,
+      "task_type": 0,
+      "safety_threshold": 0,
+      "qed_threshold": 500000,
+      "sas_threshold": 6000000,
+      "lipinski_threshold": 1,
+      "similarity_threshold": 400000
+    }
+  },
+  {
+    "molecule_id": 1,
+    "task": "ames",
+    "original_data": {
+      "molecule_id": 1,
+      "task": "ames",
+      "original_smiles": "Cc1nc2cc(Cl)ccc2[nH]1",
+      "modified_smiles": "Cc1nc2cc(OC)ccc2[nH]1",
+      "message": "Success: Molecule meets all repair criteria",
+      "valid_smiles": true,
+      "success": true,
+      "qed": 0.694777526853151,
+      "sas_score": 1.9323628283761636,
+      "lipinski_violations": 0,
+      "similarity": 0.45794392523364486,
+      "toxicity_improved": true,
+      "toxicity": {
+        "AMES": {
+          "value": "A",
+          "probability": 1
+        }
+      },
+      "task_type": 0
+    },
+    "circuit_input": {
+      "valid_smiles": 1,
+      "safety_score": 1000000,
+      "qed_score": 694777,
+      "sas_score": 1932362,
+      "lipinski_violations": 0,
+      "similarity": 457943,
+      "salt": 3196094418,
+      "task_type": 0,
+      "safety_threshold": 0,
+      "qed_threshold": 500000,
+      "sas_threshold": 6000000,
+      "lipinski_threshold": 1,
+      "similarity_threshold": 400000
+    }
+  },
+  {
+    "molecule_id": 2,
+    "task": "ames",
+    "original_data": {
+      "molecule_id": 2,
+      "task": "ames",
+      "original_smiles": "O=c1ccc2cc3c4c(c2o1)CCCN4CCC3",
+      "modified_smiles": "O=c1ccc2cc3c4c(c2o1)CCCN4CC(O)C3",
+      "message": "Success: Molecule meets all repair criteria",
+      "valid_smiles": true,
+      "success": true,
+      "qed": 0.7259796871312261,
+      "sas_score": 3.175172154304015,
+      "lipinski_violations": 0,
+      "similarity": 0.897,
+      "toxicity_improved": true,
+      "toxicity": {
+        "AMES": {
+          "value": "A",
+          "probability": 1
+        }
+      },
+      "task_type": 0
+    },
+    "circuit_input": {
+      "valid_smiles": 1,
+      "safety_score": 1000000,
+      "qed_score": 725979,
+      "sas_score": 3175172,
+      "lipinski_violations": 0,
+      "similarity": 897000,
+      "salt": 3661870010,
+      "task_type": 0,
+      "safety_threshold": 0,
+      "qed_threshold": 500000,
+      "sas_threshold": 6000000,
+      "lipinski_threshold": 1,
+      "similarity_threshold": 400000
+    }
+  },
+  {
+    "molecule_id": 7,
+    "task": "ames",
+    "original_data": {
+      "molecule_id": 7,
+      "task": "ames",
+      "original_smiles": "COc1cc2nc3ccccc3c(O)c2cc1OC",
+      "modified_smiles": "COc1cc2nc3ccc(F)cc3c(O)c2cc1OC",
+      "message": "Success: Molecule meets all repair criteria",
+      "valid_smiles": true,
+      "success": true,
+      "qed": 0.7281084516186824,
+      "sas_score": 2.139452333852976,
+      "lipinski_violations": 0,
+      "similarity": 0.8492366412213741,
+      "toxicity_improved": true,
+      "toxicity": {
+        "AMES": {
+          "value": "A",
+          "probability": 1
+        }
+      },
+      "task_type": 0
+    },
+    "circuit_input": {
+      "valid_smiles": 1,
+      "safety_score": 1000000,
+      "qed_score": 728108,
+      "sas_score": 2139452,
+      "lipinski_violations": 0,
+      "similarity": 849236,
+      "salt": 2053220925,
+      "task_type": 0,
+      "safety_threshold": 0,
+      "qed_threshold": 500000,
+      "sas_threshold": 6000000,
+      "lipinski_threshold": 1,
+      "similarity_threshold": 400000
+    }
+  },
+  {
+    "molecule_id": 10,
+    "task": "ames",
+    "original_data": {
+      "molecule_id": 10,
+      "task": "ames",
+      "original_smiles": "c1ccc(COCC2CO2)cc1",
+      "modified_smiles": "c1ccc(COCCO)cc1",
+      "message": "Success: Molecule meets all repair criteria",
+      "valid_smiles": true,
+      "success": true,
+      "qed": 0.6566625245182877,
+      "sas_score": 1.475243605528,
+      "lipinski_violations": 0,
+      "similarity": 0.7012987012987013,
+      "toxicity_improved": true,
+      "toxicity": {
+        "AMES": {
+          "value": "A",
+          "probability": 1
+        }
+      },
+      "task_type": 0
+    },
+    "circuit_input": {
+      "valid_smiles": 1,
+      "safety_score": 1000000,
+      "qed_score": 656662,
+      "sas_score": 1475243,
+      "lipinski_violations": 0,
+      "similarity": 701298,
+      "salt": 2432487521,
+      "task_type": 0,
+      "safety_threshold": 0,
+      "qed_threshold": 500000,
+      "sas_threshold": 6000000,
+      "lipinski_threshold": 1,
+      "similarity_threshold": 400000
+    }
+  }
+]

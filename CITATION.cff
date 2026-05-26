@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use ToxiEval-ZKP, please cite the paper below."
+title: "ToxiEval-ZKP"
+type: software
+authors:
+  - family-names: Lin
+    given-names: Fei
+  - family-names: Zhang
+    given-names: Tengchao
+  - family-names: Gong
+    given-names: Ziyang
+  - family-names: Wang
+    given-names: Fei-Yue
+repository-code: "https://github.com/HydroSophy/ToxiEval-ZKP"
+url: "https://github.com/HydroSophy/ToxiEval-ZKP"
+license: MIT
+version: "1.0.0"
+keywords:
+  - AI4S
+  - molecular toxicity repair
+  - structural privacy
+  - zero-knowledge proof
+  - trustworthy evaluation
+preferred-citation:
+  type: article
+  title: "ToxiEval-ZKP: A Structure-Private Verification Framework for Molecular Toxicity Repair Tasks"
+  authors:
+    - family-names: Lin
+      given-names: Fei
+    - family-names: Zhang
+      given-names: Tengchao
+    - family-names: Gong
+      given-names: Ziyang
+    - family-names: Wang
+      given-names: Fei-Yue
+  journal: "IFAC-PapersOnLine"
+  volume: 59
+  issue: 34
+  start: 36
+  end: 41
+  year: 2025
+  publisher:
+    name: "Elsevier"
+  issn: "2405-8963"
+  doi: "10.1016/j.ifacol.2025.12.436"
+  url: "https://www.sciencedirect.com/science/article/pii/S2405896325031532"
+  notes: "1st IFAC Workshop on Blockchain Intelligence and Knowledge Automation (BIKA 2025), Best Paper Award."
